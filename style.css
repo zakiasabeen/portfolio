@@ -1,0 +1,142 @@
+:root {
+  --blue-color: #5e3bee;
+  --black-color: #282938;
+  --shocking-pink-color: #e62872;
+  --neavy-blue-color: #1c1e53;
+  --dark-green-color: #006b6a;
+  --dark-black-color: #000000;
+  --back-ground-shade: #f5fcff;
+  --white-color: #ffffff;
+  --box-shadow: 0px 0px 32px 0px #00000026;
+  --background: #f5fcff;
+  --box-shadow: 0px 5.33px 80px 0px #0000001a;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+ 
+  font-family: "Roboto";
+}
+
+
+
+/* Button */
+
+.btn.light {
+ width: 100.67px;
+ height: 69.33px;
+ 
+ border: 1.33px solid var(--blue-color) ;
+ border-radius: 5.33px;
+
+ color: var(--blue-color);
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18.33px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  gap: 10.67px;
+ 
+} 
+
+.btn.dark {
+  background-color: var(--blue-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: var(--white-color);
+  width: Fixed (170.67px) px;
+  height: Hug (69.33px) px;
+ margin-top: 21.33px;
+  gap: 10.67px;
+  border-radius: 5.33px;
+  opacity: 0px;
+}
+
+.btn.light.arrow {
+  background-color: var(--back-ground-shade);
+  width: 169px;
+  height: 38.67px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16.67px;
+  color: var(--dark-black-color);
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  padding-bottom:10.67px ;
+  gap: 21.33px;
+  border: 0;
+  border-color: #6a696b;
+  border-bottom: 1.33px;
+  opacity: 0px;
+  position: relative;
+}
+
+.btn.arrow::after {
+  content: url("images/arrow.svg.svg");
+  position: absolute;
+  padding-left: 14px;
+  border: 2.67px;
+}
+/* header-section */
+.feedback{
+  position: relative;
+
+}
+.feedback::before{
+  content: url("images/Avatar\ Image\ \(2\).png");
+  position: absolute;
+  top:50%;
+  right: 32px;
+}
+
+
+
+.nav-item #anchor{
+ font-family:"Roboto",sans-serif ;
+color: #5e3bee;
+} 
+ .nav-item #Portfolio{
+ 
+  font-family:"Roboto",sans-serif ;
+ padding-left: 20px;
+  margin-left: 20px ;
+  color:#1c1e53 ;
+ } 
+
+ .btn.btn-outline{
+ width: 120px;
+ height: 50px;
+  font-family: "Roboto",sans-serif;
+  border-color: #5e3bee;
+  color: #5e3bee;
+ } 
+  
+
+ 
+ 
+ 
+ 
+ 
+ /* footer */
+
+.card-header{
+  display: flex;
+  
+  background-color: antiquewhite;
+ 
+} 
+ li {
+  display: flex;
+  
+} 
